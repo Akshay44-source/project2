@@ -1,0 +1,50 @@
+Core Workflow
+
+git init – Start a new repository.
+
+git clone <url> – Copy a remote repository.
+
+git status – Check what’s changed.
+
+git add <file> – Stage changes (mark them for commit).
+
+git commit -m "msg" – Save staged changes.
+
+git commit --amend – Edit the last commit (message or changes).
+
+git push – Send commits to remote.
+
+git pull – Fetch + merge latest changes from remote
+
+Branching
+
+git branch – List branches.
+
+git branch <name> – Create a new branch.
+
+git checkout <name> – Switch branches.
+
+git checkout -b <name> – Create and switch to a branch.
+
+git merge <branch> – Merge another branch into current.
+
+git pull --rebase – Safer pull (avoids messy merges if you forgot to pull before pushing).
+
+Inspecting
+
+git log – Show commit history.
+
+git diff – Show unstaged changes.
+
+git diff --staged – Show staged (to-be-committed) changes.
+
+git diff HEAD – Show changes since last commit.
+
+Undo & Fix
+
+git reset <file> – Unstage a file.
+
+git reset --hard <commit> – Roll back to commit (destructive).
+
+git revert <commit> – Undo by making a new commit (safe).
+
